@@ -12,3 +12,45 @@ margin:  2.5rem;
     flex-wrap: wrap ;
     justify-content: center;
 }
+
+.search__form {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .search__input {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 300px;
+    max-width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    outline: none;
+  }
+  
+  .search__input:focus {
+    border: 1px solid #ea8500;
+  }
+  
+  .search__button {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #eebe00;
+    color: #000000;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search__button:hover {
+    background-color: #0056b3;
+  }
+  
+  .search__button:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+  }
+  
+  
